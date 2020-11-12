@@ -67,6 +67,12 @@
     <Compile Include="AddOrChangeForm.xaml.cs">
       <DependentUpon>AddOrChangeForm.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Client.xaml.cs">
+      <DependentUpon>Client.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClientService.xaml.cs">
+      <DependentUpon>ClientService.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Database\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -172,6 +178,14 @@
     <Compile Include="SerivceController.cs" />
     <Compile Include="ServiceW.cs" />
     <Page Include="AddOrChangeForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Client.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ClientService.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
