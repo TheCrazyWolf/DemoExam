@@ -25,7 +25,7 @@ namespace ShitSGK
             Database.masterEntities entities = new Database.masterEntities();
 
             cbClients.ItemsSource = entities.Client.ToList();
-            cbService.ItemsSource = entities.Client.ToList();
+            cbService.ItemsSource = entities.Service.ToList();
 
         }
     }

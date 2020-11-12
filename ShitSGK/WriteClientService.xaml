@@ -26,8 +26,8 @@
                             <ColumnDefinition Width="100"/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Image Source="{Binding }" Margin="5" Grid.Column="0"/>
-                        <TextBlock Text="{Binding Title}" Margin="5" Grid.Column="1"/>
+                        <Image Source="no-image.png" Margin="5" Grid.Column="0"/>
+                            <TextBlock Text="{Binding Title}" Margin="5" Grid.Column="1"/>
                         </Grid>
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
