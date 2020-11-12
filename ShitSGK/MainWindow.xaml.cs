@@ -53,7 +53,7 @@ namespace ShitSGK
 
         private void Btn_Write_Click(object sender, RoutedEventArgs e)
         {
-            
+            MessageBox.Show("");
         }
 
         private void UpName_Click(object sender, RoutedEventArgs e)
